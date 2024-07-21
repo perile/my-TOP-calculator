@@ -1,0 +1,108 @@
+.all{
+    width: 100%;
+    height: 100%;
+    padding: 13% 0px;
+  }
+  
+  button{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 9px black;
+    background-color: gold;
+    border: 2px solid black;
+  }
+  
+  button:hover{
+    background-color: khaki;
+  }
+  
+  button:active {
+    background-color: goldenrod;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+  
+  .visor {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid black;
+    width: 619px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #EB9615;
+  }
+  
+  .container {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    background-color: #F0B416;
+  }
+  
+  .operators{
+    display: flex;
+    width: 450px;
+    gap: 40px;
+    margin: 10px;
+  }
+  
+  .operators > *{
+    flex: 1 1 auto;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    gap: 10px 40px;
+    margin: 10px;
+  }
+  
+  .numbers > *{
+    flex: 1 1 auto;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .actions{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    margin: 10px;
+  }
+  
+  .actions > *{
+    flex: 1 1 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .equals{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .delete, .erase{
+    font-size: 15px;
+  }
